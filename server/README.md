@@ -40,7 +40,7 @@ import routes from './routes'
 
 const app = express()
 
-app.user(express.json())
+app.use(express.json())
 app.use(routes)
 
 app.listen(3333)
@@ -110,7 +110,7 @@ Com ele escremos as queries em formato de JavaScript.
   * image
   * name
   * email
-  * wahtsapp
+  * whatsapp
   * latitude
   * longitude
   * city
@@ -148,7 +148,7 @@ As migrations permitem você fazer um controle de versão do seu banco de dados.
       })
     }
 
-    export async function down(knex, Knex) {
+    export async function down(knex: Knex) {
       return knex.schema.dropTable('points')
     }
 
@@ -300,7 +300,7 @@ Rota para listagem de itens
   import knex from './database/connection'
 
   routes.get('/items', async (request, response) => {
-    const items = await knex('items').select('*' )
+    const items = await knex('items').select('*')
   
     const serializedItems = items.map(item => {
       return {
@@ -478,8 +478,8 @@ Listagem de pontos por filtro de estado/cidade/items (Dentro do PointsController
       const points = await knex('points')
         .join('point_items', 'points.id', '=', 'point_items.point_id')
         .whereIn('point_items.item_id', parsedItems)
-        .where('city', city)
-        .where('uf', uf)
+        .where('city', String(city))
+        .where('uf', String(uf))
         .distinct() // Para selecionar resultados específicos
         .select('points.*')
 
@@ -503,5 +503,6 @@ npm install @types/cors -D
 Adicionar no server.ts
 
 ```ts
+import cors from 'cors'
 app.use(cors())
 ```
