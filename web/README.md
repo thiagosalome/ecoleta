@@ -115,3 +115,73 @@ No componente, adicionar o seguinte código
     [...]
   </Map>
 ```
+
+---
+
+## Upload de imagens
+
+Instalar a biblioteca ```react-dropzone```
+
+```bash
+npm install react-dropzone
+```
+
+Criar um componente Dropzone
+
+```tsx
+
+import React, {useCallback, useState} from 'react'
+import {useDropzone} from 'react-dropzone'
+import { FiUpload } from 'react-icons/fi'
+
+const Dropzone: React.FC<IDropzone> = ({ onFileUploaded }: IDropzone) => {
+  const [selectedFileUrl, setSelectedFileUrl] = useState('')
+
+  // Quando o usuário faz o drop da imagem
+  const onDrop = useCallback(acceptedFiles => {
+    const file = acceptedFiles[0]
+
+    const fileUrl = URL.createObjectURL(file)
+
+    setSelectedFileUrl(fileUrl)
+    onFileUploaded(file) // Método criado para que o pai possa receber o valor do file
+  }, [onFileUploaded])
+
+  const {getRootProps, getInputProps} = useDropzone({
+    onDrop,
+    accept: 'image/*'
+  })
+
+  return (
+    <div className='dropzone' {...getRootProps()}>
+      <input {...getInputProps()} accept='image/*' />
+      {
+        selectedFileUrl
+          ? <img src={selectedFileUrl} alt='Point thumbnail'/>
+          : (
+            <p>
+              <FiUpload />
+              Imagem do estabelecimento
+            </p>
+          )
+      }
+    </div>
+  )
+}
+
+export default Dropzone
+
+```
+
+---
+
+## Opções de deploy
+
+* Netlify:
+  * Serviço para deploy de aplicações Front-end
+  * Mais fácil de fazer o deploy
+* Vercel
+
+* Amazon S3 / Google Cloud Storage
+  * Serviços para armazenamento de arquivos estáticos
+  * Caso a aplicação comece a ficar muito grande

@@ -506,3 +506,108 @@ Adicionar no server.ts
 import cors from 'cors'
 app.use(cors())
 ```
+
+---
+
+## Upload de imagens
+
+Instalar a biblioteca ```multer```
+
+```bash
+npm install multer
+npm install @types/multer -D
+```
+
+Criar arquivo de configuração do multer em src/config/multer.ts
+
+```ts
+
+import multer from 'multer';
+import path from 'path';
+import crypto from 'crypto';
+
+export default {
+  storage: multer.diskStorage({
+    destination: path.resolve(__dirname, '..', '..', 'uploads'),
+    filename: (req, file, callback) => {
+      const hash = crypto.randomBytes(16).toString('hex');
+
+      const filename = `${hash}-${file.originalname}`;
+
+      callback(null, filename);
+    },
+  }),
+};
+
+```
+
+Chamar o multer no routes.ts
+
+```ts
+import multer from 'multer';
+import multerConfig from './config/multer';
+
+const upload = multer(multerConfig);
+
+routes.post('/points', upload.single('image'), pointsController.create);
+```
+
+**OBS:** Lembrar de reconfigurar a chamada post '/points' para FormData (No Insomnia e no React), pois não é possível enviar arquivos via JSON
+
+---
+
+## Fazendo validação com o Celebrate
+
+Instalar a biblioteca ```celebrate```
+
+```bash
+npm install celebrate
+npm install @types/hapi__joi -D
+```
+
+Configurar ele como um middleware em uma rota. Exemplo:
+
+```tsx
+
+routes.post('/points',
+  upload.single('image'),
+  celebrate({
+    body: Joi.object().keys({
+      name: Joi.string().required(),
+      email: Joi.string().required().email(),
+      whatsapp: Joi.number().required(),
+      latitude: Joi.number().required(),
+      longitude: Joi.number().required(),
+      city: Joi.string().required(),
+      uf: Joi.string().required().max(2),
+      items: Joi.string().required()
+    })
+  }, {
+    abortEarly: false // Configuração para ele validar todos de uma vez só
+  }),
+  pointsController.create,
+);
+
+```
+
+No server.ts, adicionar
+
+```ts
+import { errors } from 'celebrate'
+app.use(errors())
+```
+
+---
+
+## Opções de deploy
+
+* Heroku:
+  * Caso esteja utilizando uma aplicação de teste
+  * Não recomendado utilizar uma aplicação gratuita para subir uma aplicação que vai para produção
+
+* Digital Ocean:
+  * Recomendado para quem tem uma aplicação pequena
+  * Planos previsíveis. É possível saber quanto vai dar ao final do mês
+
+* AWS / Google Cloud / Microsoft Azure
+  * Caso a aplicação começou a crescer demais
