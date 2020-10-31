@@ -45,32 +45,71 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 ## :wrench: Tecnologias
 
+### :computer: Web
+
 <table>
-  <tr>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-    <td><img src="https://www.thiagosalome.com.br/static/cfa4617da3e2e2903268f365d7017b5a/46a2d/70b13711b2723ea16bbe3771c035e215.png" alt=""></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-base.png" width='50' alt="React">
+        <p>React</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
+        <p>Typescript</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-Layout
+### :iphone: Mobile
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-native.png" width='50' alt="React">
+        <p>React Native</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
+        <p>Typescript</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### :pager: Servidor
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/node.png" width='50' alt="React">
+        <p>Node.js</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
+        <p>Typescript</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Layout
+
   Web - Link do Figma
   Mobile - Link do Figma
 
-Preview
+## Preview
+
   Gif Web - Link da Aplicação
   Gif Mobile - Link da Aplicação
 
-Executando
+## Executando
+
   Servidor
   Web
   Mobile
 
-Licença
+## Licença
