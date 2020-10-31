@@ -29,7 +29,7 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 ## :gear: Funcionalidades
 
-### :computer: Web
+### Web
 
 - [x] Cadastro do ponto de coleta
   - [x] Imagens do estabelecimento
@@ -37,7 +37,7 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
   - [x] Endereço - Coordenadas, Número, Cidade, Estado
   - [x] Itens de coleta - Lâmpadas, Pilhas e Baterias, Papéis e Papelão, Resíduos Eletrônicos, Resíduos Orgânicos, Óleo de Cozinha
 
-### :iphone: Mobile
+### Mobile
 
 - [x] Acessar pontos de coletas cadastrados - **Mobile**
 
@@ -45,52 +45,52 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 ## :wrench: Tecnologias
 
-### :computer: Web
+### Web
 
-<table>
+<table style="border: none;">
   <tbody>
     <tr>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-base.png" width='50' alt="React">
-        <p>React</p>
+        <p style="margin: 0;">React</p>
       </td>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p>Typescript</p>
+        <p style="margin: 0;">Typescript</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-### :iphone: Mobile
+### Mobile
 
 <table>
   <tbody>
     <tr>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-native.png" width='50' alt="React">
-        <p>React Native</p>
+        <p style="margin: 0;">React Native</p>
       </td>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p>Typescript</p>
+        <p style="margin: 0;">Typescript</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-### :pager: Servidor
+### Servidor
 
 <table>
   <tbody>
     <tr>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/node.png" width='50' alt="React">
-        <p>Node.js</p>
+        <p style="margin: 0;">Node.js</p>
       </td>
-      <td align="center">
+      <td style="width: 120px;" align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p>Typescript</p>
+        <p style="margin: 0;">Typescript</p>
       </td>
     </tr>
   </tbody>
