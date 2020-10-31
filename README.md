@@ -14,9 +14,9 @@
 
 <!-- Indice-->
 <p align="center">
- <a href="#-sobre">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#memo-sobre">Sobre</a> •
+ <a href="#gear-funcionalidades">Funcionalidades</a> •
+ <a href="#wrench-tecnologias">Tecnologias</a> •
  <a href="#-layout">Layout</a> •  
  <a href="#-preview">Preview</a> •
  <a href="#-como-executar-o-projeto">Executando</a> •
@@ -43,54 +43,42 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 - [x] Entrar em contato com a entidade através do E-mail ou WhatsApp - **Mobile**
 
-## :wrench: Tecnologias
+## :wrench: Tecnologias Utilizadas
 
-### Web
-
-<table style="border: none;">
+<table>
   <tbody>
     <tr>
-      <td style="width: 120px;" align="center">
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/html.png" width='50' alt="React">
+        <p>HTML</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/css.png" width='50' alt="React">
+        <p>CSS</p>
+      </td>
+      <td align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-base.png" width='50' alt="React">
-        <p style="margin: 0;">React</p>
+        <p>React</p>
       </td>
-      <td style="width: 120px;" align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p style="margin: 0;">Typescript</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-### Mobile
-
-<table>
-  <tbody>
-    <tr>
-      <td style="width: 120px;" align="center">
+      <td align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-native.png" width='50' alt="React">
-        <p style="margin: 0;">React Native</p>
+        <p>React Native</p>
       </td>
-      <td style="width: 120px;" align="center">
+      <td align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p style="margin: 0;">Typescript</p>
+        <p>Typescript</p>
       </td>
-    </tr>
-  </tbody>
-</table>
-
-### Servidor
-
-<table>
-  <tbody>
-    <tr>
-      <td style="width: 120px;" align="center">
+      <td align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/node.png" width='50' alt="React">
-        <p style="margin: 0;">Node.js</p>
+        <p>Node.js</p>
       </td>
-      <td style="width: 120px;" align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
-        <p style="margin: 0;">Typescript</p>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/sqlite.png" width='50' alt="React">
+        <p>SQLite</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/knex.png" width='50' alt="React">
+        <p>knex</p>
       </td>
     </tr>
   </tbody>
