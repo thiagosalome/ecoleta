@@ -84,10 +84,13 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
   </tbody>
 </table>
 
-## Layout
+## :art: Layout
 
-  Web - Link do Figma
-  Mobile - Link do Figma
+### Web - [Figma](https://www.figma.com/file/sE1kNJ5J9GkJUk6LpEFHjO/Ecoleta)
+<img src="./github/layout-web.png" alt="Layout Web" title="Layout Web">
+
+### Mobile - [Figma](https://www.figma.com/file/sE1kNJ5J9GkJUk6LpEFHjO/Ecoleta)
+<img src="./github/layout-mobile.png" alt="Layout Mobile" title="Layout Mobile">
 
 ## Preview
 
