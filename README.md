@@ -14,13 +14,13 @@
 
 <!-- Indice-->
 <p align="center">
- <a href="#memo-sobre">Sobre</a> •
+ <a href="#computer-sobre">Sobre</a> •
  <a href="#gear-funcionalidades">Funcionalidades</a> •
- <a href="#wrench-tecnologias">Tecnologias</a> •
- <a href="#-layout">Layout</a> •  
- <a href="#-preview">Preview</a> •
- <a href="#-como-executar-o-projeto">Executando</a> •
- <a href="#-licença">Licença</a>
+ <a href="#wrench-tecnologias-utilizadas">Tecnologias</a> •
+ <a href="#art-layout">Layout</a> •  
+ <a href="#movie_camera-preview">Preview</a> •
+ <a href="#rocket-executando-o-projeto">Executando</a> •
+ <a href="#memo-licença">Licença</a>
 </p>
 
 ## :computer: Sobre
@@ -94,7 +94,7 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 <img src="./github/layout-mobile.png" alt="Layout Mobile" title="Layout Mobile">
 
-## Preview
+## :movie_camera: Preview
 
 ### Web
 
