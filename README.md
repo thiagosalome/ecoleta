@@ -102,7 +102,7 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 ### Mobile
 
-Gif Mobile - Link da Aplicação
+<img width="200" src="./github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
 
 ## Executando
 
