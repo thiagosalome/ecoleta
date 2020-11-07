@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="./github/logo.png" alt="Ecoleta" title="Ecoleta">
+  <img src="./.github/logo.png" alt="Ecoleta" title="Ecoleta">
 </p>
 
 <!-- Badges -->
@@ -49,35 +49,35 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/html.png" width='50' alt="React">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/html.png" width='50' alt="HTML">
         <p>HTML</p>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/css.png" width='50' alt="React">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/css.png" width='50' alt="CSS">
         <p>CSS</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-base.png" width='50' alt="React">
-        <p>React</p>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-native.png" width='50' alt="React">
-        <p>React Native</p>
       </td>
       <td align="center">
         <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/typescript.png" width='50' alt="TypeScript">
         <p>Typescript</p>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/node.png" width='50' alt="React">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-base.png" width='50' alt="React">
+        <p>React</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/react-native.png" width='50' alt="React Native">
+        <p>React Native</p>
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/node.png" width='50' alt="Node.js">
         <p>Node.js</p>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/sqlite.png" width='50' alt="React">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/sqlite.png" width='50' alt="SQLite">
         <p>SQLite</p>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/knex.png" width='50' alt="React">
+        <img src="https://raw.githubusercontent.com/thiagosalome/technologies-icons/master/knex.png" width='50' alt="knex">
         <p>knex</p>
       </td>
     </tr>
@@ -88,21 +88,21 @@ O **Ecoleta** foi criado com o intuito de ser um marketplace que ajuda pessoas a
 
 ### Web - [Figma](https://www.figma.com/file/sE1kNJ5J9GkJUk6LpEFHjO/Ecoleta?node-id=0%3A1)
 
-<img src="./github/layout-web.png" alt="Layout Web" title="Layout Web">
+<img src="./.github/layout-web.png" alt="Layout Web" title="Layout Web">
 
 ### Mobile - [Figma](https://www.figma.com/file/sE1kNJ5J9GkJUk6LpEFHjO/Ecoleta?node-id=16118%3A0)
 
-<img src="./github/layout-mobile.png" alt="Layout Mobile" title="Layout Mobile">
+<img src="./.github/layout-mobile.png" alt="Layout Mobile" title="Layout Mobile">
 
 ## :movie_camera: Preview
 
 ### Web
 
-<img src="./github/preview-web.gif" alt="Preview Web" title="Preview Web">
+<img src="./.github/preview-web.gif" alt="Preview Web" title="Preview Web">
 
 ### Mobile
 
-<img width="200" src="./github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
+<img width="200" src="./.github/preview-mobile.gif" alt="Preview Mobile" title="Preview Mobile">
 
 ## :rocket: Executando o projeto
 
